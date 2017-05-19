@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-md-6.col-sm-12
+        h1 This has your personal information as a tradie. Any updates you make will be implemented immediately.
+        
+
+
+      .col-md-6.col-sm-12
+        form#TradiePrivateInfo
+          table
+            tr
+              td 
+                label
+                  | Real Name
+                  td
+                   input#realName(type='text', title='Real name', required='')
+            tr
+              td
+                label
+                  | User Name
+                  td
+                    input#userName(type='text', title='User name', require='')
+            tr
+              td
+                label
+                  | Address
+                  td
+                    input#address(type='text', title='Address', require='')
+            tr
+              td
+                label
+                  | Services
+                  td
+                    input#services(type='text', title='Services', require='')
+            tr
+              td
+                label
+                  | Distance willing to travel
+                  td
+                    input#distance(type='numeric', title='Distance', require='')
+            
+        

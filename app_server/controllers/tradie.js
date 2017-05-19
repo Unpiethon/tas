@@ -1,6 +1,6 @@
 /* GET private page */
 module.exports.profilePrivate = function(req, res){
-res.render('index', { title: 'Private Profile' });
+res.render('private', { title: 'Private Profile' });
 };
 
 /* GET public page */
